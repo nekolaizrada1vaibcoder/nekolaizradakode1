@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой первый сайт</title>
+  <style>
+    body {
+      background: #101014;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      color: #a78bfa;
+    }
+
+    button {
+      background: #8b5cf6;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Мой первый сайт 🚀</h1>
+  <p>Я учусь создавать сайты самостоятельно!</p>
+  <button onclick="document.getElementById('result').textContent='У меня получилось! 🔥'">
+    Нажми меня
+  </button>
+  <p id="result"></p>
+</body>
+</html>
